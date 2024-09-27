@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html land="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contnet="width-device-width" ,initial-scale=1.0">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Main-->
+    <link rel="stylesheet" href="Style/style.css">
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header class="header">
+        <a href="#" class="logo"> Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+</body>
+
+<!--Home-->
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h2>Hi, Myself</h2>
+        <h1>Smaran Lal Shrestha</h1>
+        <h2>I am a <span class="multiple-text"></span></h2>
+        <div class="social-media">
+            <a href="https://x.com/lal_smaran"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/Smaranls"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+
+
+            <a href="https://www.linkedin.com/in/smaranlalshrestha/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://leetcode.com/u/SmaranLal/" target="_blank" class="leetcode-icon">
+                <img src="https://leetcode.com/_next/static/images/logo-ff2b712834cf26bf50a5de58ee27bcef.png" alt="LeetCode">
+            </a>
+        </div>
+        <a href="https://drive.google.com/file/d/17Bo1YGufcr0LSf-xPH8ntUaSNv1E34hV/view?usp=sharing" class="btn">DOWNLOAD CV</a>
+    </div>
+
+    <div class="home-img">
+        <img src="image/cropped_image.png" alt="">
+    </div>
+</section>
+
+
+<!--about-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="image/pic.png" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading"> About<span>  Me</span></h2>
+        <br>
+        <h3>Adaptable Innovator </h3>
+        <p>Hello,I am Smaran Lal Shrestha, a final-year B.Tech student in Information Technology at Vellore Institute of Technology. With a strong passion for technology and problem-solving, 
+            I have engaged in various projects that showcase my skills in machine learning, web development, and software engineering<br><br>
+        I have also completed certifications in Google Cloud and Amazon Web Services, enhancing my knowledge in cloud computing. I am eager to apply my skills in innovative projects that positively impact people's lives.</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+
+
+<!--portfolio>-->
+
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest<span> Projects</span> </h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="image/drowsy_driving.jpeg" alt="">
+            <div class="portfolio-layer">
+                <h4>Driver Drowsiness Detection System</h4>
+                <p>A deep learning-based system designed to monitor driver alertness by detecting signs of drowsiness, such as eye closure and yawning. 
+                    The project aims to enhance road safety by providing real-time alerts to prevent accidents caused by driver fatigue.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="image/rps.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Rock Paper Scisson with on chain commit reveal mechanism</h4>
+                <p>This project involves creating a decentralized Rock-Paper-Scissors game using blockchain technology. Players commit their choices (rock, paper, or scissors) in secret and reveal them simultaneously. </p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="image/futsal.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Online Futsal Booking System</h4>
+                <p> A web application that allows users to book futsal courts online seamlessly. The system manages user registrations, court availability, and payment processing, providing an efficient solution for both players and facility managers</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="image/wine.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Wine Quality Prediction Using Machine Learning</h4>
+                <br>
+                <p>This project that analyzes a dataset from Kaggle to predict the quality of wine based on its chemical properties. 
+                    By employing various machine learning algorithms, this project demonstrates the ability to derive insights from data and make informed predictions.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+
+        
+
+    </div>
+</section>
+
+
+<!--Contact-->
+
+<section class="contact" id="contact">
+    <h2 class="heading"> Contact<span> Me</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Your Full Name">
+            <input type="email" name="email" placeholder="Your Email">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10 placeholder=" Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+<!--footer-->
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by<span> Smaran </span></p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+
+
+<!--- scroll reveal js-->
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+<!----types js-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script src="JS/main.js"></script>
+</body>
+
+</html> 
